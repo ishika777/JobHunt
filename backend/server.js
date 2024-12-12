@@ -11,7 +11,7 @@ const applicationRouter = require("./routes/application-route")
 const path = require("path")
 
 const corsOptions = {
-    origin : "http://localhost:5173",
+    origin : "https://jobhunt-v736.onrender.com",
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
     credentials : true,
